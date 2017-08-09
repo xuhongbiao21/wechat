@@ -1,0 +1,31 @@
+{
+  "name": "xhb/weixin",
+  "description": "wechat procedure",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "许洪标",
+      "email": "495958434@qq.com"
+    }
+  ],
+  "require": {
+    "curl/curl": "^1.7"
+  },
+  "autoload": {
+    "files": [
+      "system/helper.php",
+      "houdunwang/core/functions.php"
+    ],
+    "psr-4": {
+      "houdunwang\\": "houdunwang\\",
+      "app\\": "app\\"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
